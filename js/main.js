@@ -37,7 +37,7 @@
 // ----==== Now trying for three buttons ====---- //
 $(document).ready(function() { 
   $("button").hover(function() {
-    $(this).toggleClass("grow lighter darker");
+    $(this).toggleClass("grow darker");
     $($("button").not(this)).toggleClass("lighter darker"); 
   }); 
 });
