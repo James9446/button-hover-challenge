@@ -2,17 +2,19 @@ button {
 	height: 100px;
 	width: 200px;
 	border-radius: 30px;
+	transition: 0.3s ease;
 }
-
+.darkest {
+	background-color: #A9A9A9;
+}
 .darker {
-	background-color: darkgrey;
+	background-color: #808080;
 }
 
 .lighter {
-	background-color: lightgrey;
+	background-color: #D3D3D3;
 }
 
 .grow {
-	height: 150px;
-	width: 250px;
+	transform: scale(1.3);
 }
